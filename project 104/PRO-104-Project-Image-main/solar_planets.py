@@ -1,0 +1,59 @@
+import cv2
+img = cv2.imread("solar_plants.py")
+cv2.imshow("output",img)
+cv2.waitKey(0)
+cv2.putText(img,
+            "Sun",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255)
+            )
+cv2.putText(img,
+            "Mercury",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (257,257,257)
+            )
+cv2.putText(img,
+            "Venus",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (259,259,259)
+            )
+cv2.putText(img,
+            "Earth",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (261,261,261)
+            )
+cv2.putText(img,
+            "MARS",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (263,263,263)
+            )
+cv2.putText(img,
+            "Jupiter",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (265,265,265)
+            )
+cv2.putText(img,
+            "Saturn",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (267,267,267)
+            )
+cv2.putText(img,
+            "Uranus",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (269,269,269)
+            )
+cv2.putText(img,
+            "Neptune",
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (271,271,271)
+            )
+cv2.imwrite("Solar System",img)
